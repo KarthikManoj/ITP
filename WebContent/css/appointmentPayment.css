@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+		background: linear-gradient(to right, #efefbb 0%, #d4d3dd 100%);
+		family: $font;
+	
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.bod{
+  
+   
+  width: 712px;
+  border: 2px solid LightSeaGreen;
+  padding: 121px;
+  margin: 20px;
+  position:absolute;
+  left:230px;
+  top:147px
+  
+}
+.head{
+  
+    font-family: Impact, Charcoal, sans-serif
+font color:#D65DB1;
+  margin: 20px;
+  position:absolute;
+  left:361px;
+  top:177px;
+  
+}
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+}
+.button {
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #173c74, #24478f, #3851ab, #505bc6, #6b63e0);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 19px;
+  padding: 7px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+ position:absolute;
+ top:408px;
+ left:640px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.h3{
+	
+  position: absolute;
+
+  left: 20px;
+  top:10px
+  background: white;
+	
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
